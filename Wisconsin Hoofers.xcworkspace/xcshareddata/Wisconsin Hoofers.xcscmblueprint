@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A1D6BE4C5C982546A2FB159A332E13E246C28CA4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A1D6BE4C5C982546A2FB159A332E13E246C28CA4" : 0,
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B13F186F-CBAF-4FDE-86CE-A5D19CC9241B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A1D6BE4C5C982546A2FB159A332E13E246C28CA4" : "Wisconsin%20Hoofers\/",
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "..\/..\/google-api-objectivec-client"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Wisconsin Hoofers",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Wisconsin Hoofers.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cvhnilicka\/CS407.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1D6BE4C5C982546A2FB159A332E13E246C28CA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/google-api-objectivec-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98"
+    }
+  ]
+}

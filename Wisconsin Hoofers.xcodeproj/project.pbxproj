@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B72D2E6D6D6FEBA94371DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D933C0722DF1E5851539121 /* libPods.a */; };
+		8737CE311BEAA59B004D07C8 /* HoofersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8737CE301BEAA59B004D07C8 /* HoofersButton.swift */; };
+		8737CE331BEAB8E3004D07C8 /* HoofersCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8737CE321BEAB8E3004D07C8 /* HoofersCalenderViewController.swift */; };
+		879059641BEC0F7C003916F3 /* SnsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879059631BEC0F7C003916F3 /* SnsViewController.swift */; };
+		879059661BEC102F003916F3 /* OutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879059651BEC102F003916F3 /* OutingViewController.swift */; };
+		879059681BEC10D9003916F3 /* SailingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879059671BEC10D9003916F3 /* SailingViewController.swift */; };
+		8790596A1BEC117F003916F3 /* ScubaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879059691BEC117F003916F3 /* ScubaViewController.swift */; };
+		8790596C1BEC11FF003916F3 /* ClimbingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790596B1BEC11FF003916F3 /* ClimbingViewController.swift */; };
+		8790596E1BEC1210003916F3 /* RidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790596D1BEC1210003916F3 /* RidingViewController.swift */; };
+		87B721491BEC5B9A006AA2C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87B721471BEC5B5F006AA2C5 /* GoogleService-Info.plist */; };
+		87CC0A8F1BEA71CA00649AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC0A8E1BEA71CA00649AF7 /* AppDelegate.swift */; };
+		87CC0A911BEA71CA00649AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC0A901BEA71CA00649AF7 /* ViewController.swift */; };
+		87CC0A941BEA71CA00649AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CC0A921BEA71CA00649AF7 /* Main.storyboard */; };
+		87CC0A961BEA71CA00649AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CC0A951BEA71CA00649AF7 /* Assets.xcassets */; };
+		87CC0A991BEA71CA00649AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CC0A971BEA71CA00649AF7 /* LaunchScreen.storyboard */; };
+		87CC0AA41BEA71CB00649AF7 /* Wisconsin_HoofersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC0AA31BEA71CB00649AF7 /* Wisconsin_HoofersTests.swift */; };
+		87CC0AAF1BEA71CB00649AF7 /* Wisconsin_HoofersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC0AAE1BEA71CB00649AF7 /* Wisconsin_HoofersUITests.swift */; };
+		87CC0ABD1BEA722F00649AF7 /* ClubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC0ABC1BEA722F00649AF7 /* ClubCell.swift */; };
+		87F67A9A1BECF57F0075A8DB /* ScrollTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F67A991BECF57F0075A8DB /* ScrollTableViewController.swift */; };
+		87F67AD61BEEAC860075A8DB /* SignOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F67AD51BEEAC860075A8DB /* SignOnViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87CC0AA01BEA71CB00649AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CC0A831BEA71CA00649AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CC0A8A1BEA71CA00649AF7;
+			remoteInfo = "Wisconsin Hoofers";
+		};
+		87CC0AAB1BEA71CB00649AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CC0A831BEA71CA00649AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CC0A8A1BEA71CA00649AF7;
+			remoteInfo = "Wisconsin Hoofers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D933C0722DF1E5851539121 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A89BE983A4825DDD8D5A81 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8737CE301BEAA59B004D07C8 /* HoofersButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoofersButton.swift; sourceTree = "<group>"; };
+		8737CE321BEAB8E3004D07C8 /* HoofersCalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoofersCalenderViewController.swift; sourceTree = "<group>"; };
+		879059631BEC0F7C003916F3 /* SnsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnsViewController.swift; sourceTree = "<group>"; };
+		879059651BEC102F003916F3 /* OutingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutingViewController.swift; sourceTree = "<group>"; };
+		879059671BEC10D9003916F3 /* SailingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SailingViewController.swift; sourceTree = "<group>"; };
+		879059691BEC117F003916F3 /* ScubaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScubaViewController.swift; sourceTree = "<group>"; };
+		8790596B1BEC11FF003916F3 /* ClimbingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimbingViewController.swift; sourceTree = "<group>"; };
+		8790596D1BEC1210003916F3 /* RidingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidingViewController.swift; sourceTree = "<group>"; };
+		87B721471BEC5B5F006AA2C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		87B7214F1BEC5E22006AA2C5 /* Wisconsin-Hoofers-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Wisconsin-Hoofers-Bridging-Header.h"; path = "../../../../Desktop/Wisconsin-Hoofers-Bridging-Header.h"; sourceTree = "<group>"; };
+		87CC0A8B1BEA71CA00649AF7 /* Wisconsin Hoofers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wisconsin Hoofers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC0A8E1BEA71CA00649AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87CC0A901BEA71CA00649AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87CC0A931BEA71CA00649AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87CC0A951BEA71CA00649AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87CC0A981BEA71CA00649AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87CC0A9A1BEA71CA00649AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CC0A9F1BEA71CB00649AF7 /* Wisconsin HoofersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wisconsin HoofersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC0AA31BEA71CB00649AF7 /* Wisconsin_HoofersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wisconsin_HoofersTests.swift; sourceTree = "<group>"; };
+		87CC0AA51BEA71CB00649AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CC0AAA1BEA71CB00649AF7 /* Wisconsin HoofersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wisconsin HoofersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC0AAE1BEA71CB00649AF7 /* Wisconsin_HoofersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wisconsin_HoofersUITests.swift; sourceTree = "<group>"; };
+		87CC0AB01BEA71CB00649AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CC0ABC1BEA722F00649AF7 /* ClubCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubCell.swift; sourceTree = "<group>"; };
+		87F67A991BECF57F0075A8DB /* ScrollTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTableViewController.swift; sourceTree = "<group>"; };
+		87F67AD51BEEAC860075A8DB /* SignOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOnViewController.swift; sourceTree = "<group>"; };
+		D29C94823B3C427C44CFE5ED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CC0A881BEA71CA00649AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B72D2E6D6D6FEBA94371DF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC0A9C1BEA71CB00649AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC0AA71BEA71CB00649AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378CA95D5C60707E699B04BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86A89BE983A4825DDD8D5A81 /* Pods.debug.xcconfig */,
+				D29C94823B3C427C44CFE5ED /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		879059601BEBAA0D003916F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		87CC0A821BEA71CA00649AF7 = {
+			isa = PBXGroup;
+			children = (
+				87CC0A8D1BEA71CA00649AF7 /* Wisconsin Hoofers */,
+				87CC0AA21BEA71CB00649AF7 /* Wisconsin HoofersTests */,
+				87CC0AAD1BEA71CB00649AF7 /* Wisconsin HoofersUITests */,
+				87CC0A8C1BEA71CA00649AF7 /* Products */,
+				879059601BEBAA0D003916F3 /* Support Files */,
+				378CA95D5C60707E699B04BD /* Pods */,
+				F6AEFCB6C048CE484D56C19D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87CC0A8C1BEA71CA00649AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CC0A8B1BEA71CA00649AF7 /* Wisconsin Hoofers.app */,
+				87CC0A9F1BEA71CB00649AF7 /* Wisconsin HoofersTests.xctest */,
+				87CC0AAA1BEA71CB00649AF7 /* Wisconsin HoofersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CC0A8D1BEA71CA00649AF7 /* Wisconsin Hoofers */ = {
+			isa = PBXGroup;
+			children = (
+				87B7214F1BEC5E22006AA2C5 /* Wisconsin-Hoofers-Bridging-Header.h */,
+				87CC0A8E1BEA71CA00649AF7 /* AppDelegate.swift */,
+				87CC0A901BEA71CA00649AF7 /* ViewController.swift */,
+				87CC0A921BEA71CA00649AF7 /* Main.storyboard */,
+				87F67AD51BEEAC860075A8DB /* SignOnViewController.swift */,
+				87F67A991BECF57F0075A8DB /* ScrollTableViewController.swift */,
+				8790596B1BEC11FF003916F3 /* ClimbingViewController.swift */,
+				8790596D1BEC1210003916F3 /* RidingViewController.swift */,
+				879059691BEC117F003916F3 /* ScubaViewController.swift */,
+				879059671BEC10D9003916F3 /* SailingViewController.swift */,
+				879059651BEC102F003916F3 /* OutingViewController.swift */,
+				879059631BEC0F7C003916F3 /* SnsViewController.swift */,
+				8737CE321BEAB8E3004D07C8 /* HoofersCalenderViewController.swift */,
+				8737CE301BEAA59B004D07C8 /* HoofersButton.swift */,
+				87CC0ABC1BEA722F00649AF7 /* ClubCell.swift */,
+				87CC0A951BEA71CA00649AF7 /* Assets.xcassets */,
+				87CC0A971BEA71CA00649AF7 /* LaunchScreen.storyboard */,
+				87CC0A9A1BEA71CA00649AF7 /* Info.plist */,
+				87B721471BEC5B5F006AA2C5 /* GoogleService-Info.plist */,
+			);
+			path = "Wisconsin Hoofers";
+			sourceTree = "<group>";
+		};
+		87CC0AA21BEA71CB00649AF7 /* Wisconsin HoofersTests */ = {
+			isa = PBXGroup;
+			children = (
+				87CC0AA31BEA71CB00649AF7 /* Wisconsin_HoofersTests.swift */,
+				87CC0AA51BEA71CB00649AF7 /* Info.plist */,
+			);
+			path = "Wisconsin HoofersTests";
+			sourceTree = "<group>";
+		};
+		87CC0AAD1BEA71CB00649AF7 /* Wisconsin HoofersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87CC0AAE1BEA71CB00649AF7 /* Wisconsin_HoofersUITests.swift */,
+				87CC0AB01BEA71CB00649AF7 /* Info.plist */,
+			);
+			path = "Wisconsin HoofersUITests";
+			sourceTree = "<group>";
+		};
+		F6AEFCB6C048CE484D56C19D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D933C0722DF1E5851539121 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CC0A8A1BEA71CA00649AF7 /* Wisconsin Hoofers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CC0AB31BEA71CB00649AF7 /* Build configuration list for PBXNativeTarget "Wisconsin Hoofers" */;
+			buildPhases = (
+				80017DE6CD5B508CAA8389BD /* Check Pods Manifest.lock */,
+				87CC0A871BEA71CA00649AF7 /* Sources */,
+				87CC0A881BEA71CA00649AF7 /* Frameworks */,
+				87CC0A891BEA71CA00649AF7 /* Resources */,
+				CF206D3908B4E8FCA5013E2B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wisconsin Hoofers";
+			productName = "Wisconsin Hoofers";
+			productReference = 87CC0A8B1BEA71CA00649AF7 /* Wisconsin Hoofers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87CC0A9E1BEA71CB00649AF7 /* Wisconsin HoofersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CC0AB61BEA71CB00649AF7 /* Build configuration list for PBXNativeTarget "Wisconsin HoofersTests" */;
+			buildPhases = (
+				87CC0A9B1BEA71CB00649AF7 /* Sources */,
+				87CC0A9C1BEA71CB00649AF7 /* Frameworks */,
+				87CC0A9D1BEA71CB00649AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CC0AA11BEA71CB00649AF7 /* PBXTargetDependency */,
+			);
+			name = "Wisconsin HoofersTests";
+			productName = "Wisconsin HoofersTests";
+			productReference = 87CC0A9F1BEA71CB00649AF7 /* Wisconsin HoofersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87CC0AA91BEA71CB00649AF7 /* Wisconsin HoofersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CC0AB91BEA71CB00649AF7 /* Build configuration list for PBXNativeTarget "Wisconsin HoofersUITests" */;
+			buildPhases = (
+				87CC0AA61BEA71CB00649AF7 /* Sources */,
+				87CC0AA71BEA71CB00649AF7 /* Frameworks */,
+				87CC0AA81BEA71CB00649AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CC0AAC1BEA71CB00649AF7 /* PBXTargetDependency */,
+			);
+			name = "Wisconsin HoofersUITests";
+			productName = "Wisconsin HoofersUITests";
+			productReference = 87CC0AAA1BEA71CB00649AF7 /* Wisconsin HoofersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CC0A831BEA71CA00649AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cormick Hnilicka";
+				TargetAttributes = {
+					87CC0A8A1BEA71CA00649AF7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = E5G65G7DF3;
+					};
+					87CC0A9E1BEA71CB00649AF7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = E5G65G7DF3;
+						TestTargetID = 87CC0A8A1BEA71CA00649AF7;
+					};
+					87CC0AA91BEA71CB00649AF7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = E5G65G7DF3;
+						TestTargetID = 87CC0A8A1BEA71CA00649AF7;
+					};
+				};
+			};
+			buildConfigurationList = 87CC0A861BEA71CA00649AF7 /* Build configuration list for PBXProject "Wisconsin Hoofers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87CC0A821BEA71CA00649AF7;
+			productRefGroup = 87CC0A8C1BEA71CA00649AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CC0A8A1BEA71CA00649AF7 /* Wisconsin Hoofers */,
+				87CC0A9E1BEA71CB00649AF7 /* Wisconsin HoofersTests */,
+				87CC0AA91BEA71CB00649AF7 /* Wisconsin HoofersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87CC0A891BEA71CA00649AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC0A991BEA71CA00649AF7 /* LaunchScreen.storyboard in Resources */,
+				87B721491BEC5B9A006AA2C5 /* GoogleService-Info.plist in Resources */,
+				87CC0A961BEA71CA00649AF7 /* Assets.xcassets in Resources */,
+				87CC0A941BEA71CA00649AF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC0A9D1BEA71CB00649AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC0AA81BEA71CB00649AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80017DE6CD5B508CAA8389BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF206D3908B4E8FCA5013E2B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CC0A871BEA71CA00649AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879059661BEC102F003916F3 /* OutingViewController.swift in Sources */,
+				8790596C1BEC11FF003916F3 /* ClimbingViewController.swift in Sources */,
+				8737CE311BEAA59B004D07C8 /* HoofersButton.swift in Sources */,
+				8790596A1BEC117F003916F3 /* ScubaViewController.swift in Sources */,
+				87CC0A911BEA71CA00649AF7 /* ViewController.swift in Sources */,
+				87CC0ABD1BEA722F00649AF7 /* ClubCell.swift in Sources */,
+				87F67A9A1BECF57F0075A8DB /* ScrollTableViewController.swift in Sources */,
+				879059681BEC10D9003916F3 /* SailingViewController.swift in Sources */,
+				879059641BEC0F7C003916F3 /* SnsViewController.swift in Sources */,
+				8737CE331BEAB8E3004D07C8 /* HoofersCalenderViewController.swift in Sources */,
+				87F67AD61BEEAC860075A8DB /* SignOnViewController.swift in Sources */,
+				87CC0A8F1BEA71CA00649AF7 /* AppDelegate.swift in Sources */,
+				8790596E1BEC1210003916F3 /* RidingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC0A9B1BEA71CB00649AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC0AA41BEA71CB00649AF7 /* Wisconsin_HoofersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC0AA61BEA71CB00649AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC0AAF1BEA71CB00649AF7 /* Wisconsin_HoofersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87CC0AA11BEA71CB00649AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CC0A8A1BEA71CA00649AF7 /* Wisconsin Hoofers */;
+			targetProxy = 87CC0AA01BEA71CB00649AF7 /* PBXContainerItemProxy */;
+		};
+		87CC0AAC1BEA71CB00649AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CC0A8A1BEA71CA00649AF7 /* Wisconsin Hoofers */;
+			targetProxy = 87CC0AAB1BEA71CB00649AF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87CC0A921BEA71CA00649AF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CC0A931BEA71CA00649AF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87CC0A971BEA71CA00649AF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CC0A981BEA71CA00649AF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87CC0AB11BEA71CB00649AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87CC0AB21BEA71CB00649AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CC0AB41BEA71CB00649AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A89BE983A4825DDD8D5A81 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Wisconsin Hoofers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-Hoofers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wisconsin Hoofers/Wisconsin Hoofers-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87CC0AB51BEA71CB00649AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29C94823B3C427C44CFE5ED /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTM_USE_SESSION_FETCHER=1";
+				INFOPLIST_FILE = "Wisconsin Hoofers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-Hoofers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wisconsin Hoofers/Wisconsin Hoofers-Bridging-Header.h";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "gtm-session-fetcher/Source/ google-api-objectivec-client/Source/**";
+			};
+			name = Release;
+		};
+		87CC0AB71BEA71CB00649AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wisconsin HoofersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-HoofersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wisconsin Hoofers.app/Wisconsin Hoofers";
+			};
+			name = Debug;
+		};
+		87CC0AB81BEA71CB00649AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wisconsin HoofersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-HoofersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wisconsin Hoofers.app/Wisconsin Hoofers";
+			};
+			name = Release;
+		};
+		87CC0ABA1BEA71CB00649AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wisconsin HoofersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-HoofersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wisconsin Hoofers";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		87CC0ABB1BEA71CB00649AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wisconsin HoofersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-HoofersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wisconsin Hoofers";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CC0A861BEA71CA00649AF7 /* Build configuration list for PBXProject "Wisconsin Hoofers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC0AB11BEA71CB00649AF7 /* Debug */,
+				87CC0AB21BEA71CB00649AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CC0AB31BEA71CB00649AF7 /* Build configuration list for PBXNativeTarget "Wisconsin Hoofers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC0AB41BEA71CB00649AF7 /* Debug */,
+				87CC0AB51BEA71CB00649AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CC0AB61BEA71CB00649AF7 /* Build configuration list for PBXNativeTarget "Wisconsin HoofersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC0AB71BEA71CB00649AF7 /* Debug */,
+				87CC0AB81BEA71CB00649AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CC0AB91BEA71CB00649AF7 /* Build configuration list for PBXNativeTarget "Wisconsin HoofersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC0ABA1BEA71CB00649AF7 /* Debug */,
+				87CC0ABB1BEA71CB00649AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CC0A831BEA71CA00649AF7 /* Project object */;
+}
