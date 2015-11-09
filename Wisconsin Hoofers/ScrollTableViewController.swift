@@ -10,38 +10,123 @@ import UIKit
 
 class ScrollTableViewController: UITableViewController {
 
+    //the text views of each club
+    @IBOutlet weak var MountaineeringInfo: UITextView!
     @IBOutlet weak var SnsInfo: UITextView!
     @IBOutlet weak var OutingInfo: UITextView!
     @IBOutlet weak var outinginfobutton: UIButton!
+    @IBOutlet weak var ScubaInfo: UITextView!
+    @IBOutlet weak var RidingInfo: UITextView!
 
     @IBOutlet weak var SailingInfo: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //set info to hidden
+        self.RidingInfo.hidden = true;
+        self.MountaineeringInfo.hidden = true;
+        self.ScubaInfo.hidden = true;
         self.SnsInfo.hidden = true;
-        self.SnsInfo.font = UIFont(name: SnsInfo.font!.fontName, size: 24);
-        self.SnsInfo.alpha = 0;
-        self.OutingInfo.alpha = 0;
         self.OutingInfo.hidden = true;
-        self.OutingInfo.font = UIFont(name: OutingInfo.font!.fontName, size: 24);
-        self.outinginfobutton.backgroundColor = UIColor(red: 141, green: 186, blue: 80, alpha: 0);
-        self.OutingInfo.backgroundColor = UIColor(red: 0.55, green: 0.73, blue: 0.313, alpha: 0.75);
-        self.OutingInfo.layer.cornerRadius = 10.0;
-        self.SnsInfo.layer.cornerRadius = 10.0;
-        self.SnsInfo.backgroundColor = UIColor(red: 0.44, green: 0.30, blue: 0.55, alpha: 0.75);
-        self.SailingInfo.backgroundColor = UIColor(red: 0.36, green: 0.67, blue: 0.70, alpha: 0.75);
-        self.SailingInfo.layer.cornerRadius = 10.0;
-          self.SailingInfo.font = UIFont(name: SailingInfo.font!.fontName, size: 20);
         self.SailingInfo.hidden = true;
+        
+        
+        //Setting fonts
+        self.RidingInfo.font = UIFont(name: RidingInfo.font!.fontName, size: 20);
+        self.MountaineeringInfo.font = UIFont(name: MountaineeringInfo.font!.fontName, size: 20);
+        self.ScubaInfo.font = UIFont(name: ScubaInfo.font!.fontName, size: 20);
+        self.SnsInfo.font = UIFont(name: SnsInfo.font!.fontName, size: 20);
+        self.OutingInfo.font = UIFont(name: OutingInfo.font!.fontName, size: 24);
+        self.SailingInfo.font = UIFont(name: SailingInfo.font!.fontName, size: 20);
+        
+        
+        //set color for info background
+        self.RidingInfo.backgroundColor = UIColor(red: 0.745, green: 0.62, blue: 0.525, alpha: 0.90);
+        self.MountaineeringInfo.backgroundColor = UIColor(red: 0.478, green: 0.463, blue: 0.455, alpha: 0.90);
+        self.ScubaInfo.backgroundColor = UIColor(red: 0.11, green: 0.286, blue: 0.396, alpha: 0.90);
+        self.OutingInfo.backgroundColor = UIColor(red: 0.55, green: 0.73, blue: 0.313, alpha: 0.90);
+        self.SailingInfo.backgroundColor = UIColor(red: 0.36, green: 0.67, blue: 0.70, alpha: 0.90);
+        self.SnsInfo.backgroundColor = UIColor(red: 0.44, green: 0.30, blue: 0.55, alpha: 0.90);
+        
+        
+        //set transparencies for fade in effect
+        self.SnsInfo.alpha = 0;
+        self.MountaineeringInfo.alpha = 0;
+        self.RidingInfo.alpha = 0;
+        self.ScubaInfo.alpha = 0;
+        self.SailingInfo.alpha = 0;
+        self.OutingInfo.alpha = 0;
+        
+       
+        //set corner radius for rounded corners
+        self.RidingInfo.layer.cornerRadius = 10;
+        self.MountaineeringInfo.layer.cornerRadius = 10;
+        self.SnsInfo.layer.cornerRadius = 10;
+        self.ScubaInfo.layer.cornerRadius = 10;
+        self.SailingInfo.layer.cornerRadius = 10;
+        self.OutingInfo.layer.cornerRadius = 10.0;
+
+        
+        
         
 
         // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        // self.clearsSelectionOnViewdWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
+    
+    @IBAction func showRidingInfo(sender: AnyObject) {
+        UIView.animateWithDuration(1.5, animations: {
+            self.RidingInfo.hidden = false;
+            self.RidingInfo.alpha = 2;
+        })
+    }
+    
+    @IBAction func hideRidingInfo(sender: AnyObject) {
+        UIView.animateWithDuration(0, animations: {
+            self.RidingInfo.alpha = 0;
+            }, completion: {
+                (value: Bool) in
+                self.RidingInfo.hidden = true;
+        })
+    }
+
+    @IBAction func showMountaineeringInfo(sender: AnyObject) {
+        UIView.animateWithDuration(1.5, animations: {
+            self.MountaineeringInfo.hidden = false;
+            self.MountaineeringInfo.alpha = 2;
+        })
+    }
+    
+    @IBAction func hideMountaineeringInfo(sender: AnyObject) {
+        UIView.animateWithDuration(0, animations: {
+            self.MountaineeringInfo.alpha = 0;
+            }, completion: {
+                (value: Bool) in
+                self.MountaineeringInfo.hidden = true;
+        })
+    }
+    
+    @IBAction func showScubaInfo(sender: AnyObject) {
+        UIView.animateWithDuration(1.5, animations: {
+            self.ScubaInfo.hidden = false;
+            self.ScubaInfo.alpha = 2;
+        })
+    }
    
+  
+    @IBAction func hideScubaInfo(sender: AnyObject) {
+        UIView.animateWithDuration(0, animations: {
+            self.ScubaInfo.alpha = 0;
+            }, completion: {
+                (value: Bool) in
+                self.ScubaInfo.hidden = true;
+        })
+    }
+    
     @IBAction func showSailingInfo(sender: AnyObject) {
         UIView.animateWithDuration(1.5, animations: {
             self.SailingInfo.hidden = false;

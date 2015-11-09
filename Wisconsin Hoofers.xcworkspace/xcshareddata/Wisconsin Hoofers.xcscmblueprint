@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A1D6BE4C5C982546A2FB159A332E13E246C28CA4",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BF12C1A04189EC3CFA4F2172C45DD452B68E1792",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0,
     "A1D6BE4C5C982546A2FB159A332E13E246C28CA4" : 0,
-    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : 0
+    "BF12C1A04189EC3CFA4F2172C45DD452B68E1792" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B13F186F-CBAF-4FDE-86CE-A5D19CC9241B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "..\/..\/google-api-objectivec-client",
     "A1D6BE4C5C982546A2FB159A332E13E246C28CA4" : "Wisconsin%20Hoofers\/",
-    "D58DF7C3E72198199D1B65DDDAADD2A7790F9A98" : "..\/..\/google-api-objectivec-client"
+    "BF12C1A04189EC3CFA4F2172C45DD452B68E1792" : "Wisconsin-Hoofers\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Wisconsin Hoofers",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cvhnilicka\/CS407.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1D6BE4C5C982546A2FB159A332E13E246C28CA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cvhnilicka\/WiscoHoofers.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF12C1A04189EC3CFA4F2172C45DD452B68E1792"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/google-api-objectivec-client.git",

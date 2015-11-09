@@ -8,8 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		65B72D2E6D6D6FEBA94371DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D933C0722DF1E5851539121 /* libPods.a */; };
+		870ED8621BEFFF0800E609D8 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870ED8611BEFFF0800E609D8 /* GoogleMaps.framework */; };
 		8737CE311BEAA59B004D07C8 /* HoofersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8737CE301BEAA59B004D07C8 /* HoofersButton.swift */; };
 		8737CE331BEAB8E3004D07C8 /* HoofersCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8737CE321BEAB8E3004D07C8 /* HoofersCalenderViewController.swift */; };
+		875D470B1BEFF3B20044A1F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D470A1BEFF3B20044A1F2 /* AVFoundation.framework */; };
+		875D470D1BEFF3BA0044A1F2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D470C1BEFF3BA0044A1F2 /* CoreData.framework */; };
+		875D470F1BEFF3C40044A1F2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D470E1BEFF3C40044A1F2 /* CoreLocation.framework */; };
+		875D47111BEFF3CD0044A1F2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D47101BEFF3CD0044A1F2 /* CoreText.framework */; };
+		875D47131BEFF3D50044A1F2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D47121BEFF3D50044A1F2 /* GLKit.framework */; };
+		875D47151BEFF3DE0044A1F2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D47141BEFF3DE0044A1F2 /* ImageIO.framework */; };
+		875D47171BEFF3FD0044A1F2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D47161BEFF3FD0044A1F2 /* libc++.tbd */; };
+		875D47191BEFF40A0044A1F2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D47181BEFF40A0044A1F2 /* libicucore.tbd */; };
+		875D471B1BEFF41A0044A1F2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D471A1BEFF41A0044A1F2 /* libz.tbd */; };
+		875D471D1BEFF4220044A1F2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D471C1BEFF4220044A1F2 /* OpenGLES.framework */; };
+		875D471F1BEFF42B0044A1F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D471E1BEFF42B0044A1F2 /* QuartzCore.framework */; };
+		875D47211BEFF4360044A1F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D47201BEFF4360044A1F2 /* SystemConfiguration.framework */; };
 		879059641BEC0F7C003916F3 /* SnsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879059631BEC0F7C003916F3 /* SnsViewController.swift */; };
 		879059661BEC102F003916F3 /* OutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879059651BEC102F003916F3 /* OutingViewController.swift */; };
 		879059681BEC10D9003916F3 /* SailingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879059671BEC10D9003916F3 /* SailingViewController.swift */; };
@@ -49,8 +62,21 @@
 /* Begin PBXFileReference section */
 		0D933C0722DF1E5851539121 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A89BE983A4825DDD8D5A81 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		870ED8611BEFFF0800E609D8 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		8737CE301BEAA59B004D07C8 /* HoofersButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoofersButton.swift; sourceTree = "<group>"; };
 		8737CE321BEAB8E3004D07C8 /* HoofersCalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoofersCalenderViewController.swift; sourceTree = "<group>"; };
+		875D470A1BEFF3B20044A1F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		875D470C1BEFF3BA0044A1F2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		875D470E1BEFF3C40044A1F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		875D47101BEFF3CD0044A1F2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		875D47121BEFF3D50044A1F2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		875D47141BEFF3DE0044A1F2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		875D47161BEFF3FD0044A1F2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		875D47181BEFF40A0044A1F2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		875D471A1BEFF41A0044A1F2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		875D471C1BEFF4220044A1F2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		875D471E1BEFF42B0044A1F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		875D47201BEFF4360044A1F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		879059631BEC0F7C003916F3 /* SnsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnsViewController.swift; sourceTree = "<group>"; };
 		879059651BEC102F003916F3 /* OutingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutingViewController.swift; sourceTree = "<group>"; };
 		879059671BEC10D9003916F3 /* SailingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SailingViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +109,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875D47211BEFF4360044A1F2 /* SystemConfiguration.framework in Frameworks */,
+				875D471F1BEFF42B0044A1F2 /* QuartzCore.framework in Frameworks */,
+				875D471D1BEFF4220044A1F2 /* OpenGLES.framework in Frameworks */,
+				875D471B1BEFF41A0044A1F2 /* libz.tbd in Frameworks */,
+				875D47191BEFF40A0044A1F2 /* libicucore.tbd in Frameworks */,
+				875D47171BEFF3FD0044A1F2 /* libc++.tbd in Frameworks */,
+				875D47151BEFF3DE0044A1F2 /* ImageIO.framework in Frameworks */,
+				875D47131BEFF3D50044A1F2 /* GLKit.framework in Frameworks */,
+				875D47111BEFF3CD0044A1F2 /* CoreText.framework in Frameworks */,
+				875D470F1BEFF3C40044A1F2 /* CoreLocation.framework in Frameworks */,
+				875D470D1BEFF3BA0044A1F2 /* CoreData.framework in Frameworks */,
+				875D470B1BEFF3B20044A1F2 /* AVFoundation.framework in Frameworks */,
+				870ED8621BEFFF0800E609D8 /* GoogleMaps.framework in Frameworks */,
 				65B72D2E6D6D6FEBA94371DF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +229,19 @@
 		F6AEFCB6C048CE484D56C19D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				870ED8611BEFFF0800E609D8 /* GoogleMaps.framework */,
+				875D47201BEFF4360044A1F2 /* SystemConfiguration.framework */,
+				875D471E1BEFF42B0044A1F2 /* QuartzCore.framework */,
+				875D471C1BEFF4220044A1F2 /* OpenGLES.framework */,
+				875D471A1BEFF41A0044A1F2 /* libz.tbd */,
+				875D47181BEFF40A0044A1F2 /* libicucore.tbd */,
+				875D47161BEFF3FD0044A1F2 /* libc++.tbd */,
+				875D47141BEFF3DE0044A1F2 /* ImageIO.framework */,
+				875D47121BEFF3D50044A1F2 /* GLKit.framework */,
+				875D47101BEFF3CD0044A1F2 /* CoreText.framework */,
+				875D470E1BEFF3C40044A1F2 /* CoreLocation.framework */,
+				875D470C1BEFF3BA0044A1F2 /* CoreData.framework */,
+				875D470A1BEFF3B20044A1F2 /* AVFoundation.framework */,
 				0D933C0722DF1E5851539121 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -520,6 +572,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+				);
 				INFOPLIST_FILE = "Wisconsin Hoofers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-Hoofers";
@@ -536,6 +592,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTM_USE_SESSION_FETCHER=1";
 				INFOPLIST_FILE = "Wisconsin Hoofers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
