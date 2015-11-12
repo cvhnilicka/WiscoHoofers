@@ -26,8 +26,8 @@ class SnsViewController: UIViewController, CLLocationManagerDelegate, GMSMapView
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.delegate = self;
-        var camera = GMSCameraPosition.cameraWithLatitude(0, longitude: 45, zoom: 12)
-        mapView.animateToLocation(CLLocationCoordinate2DMake(43.4753, -110.7692));
+     //   var camera = GMSCameraPosition.cameraWithLatitude(0, longitude: 45, zoom: 12)
+        mapView.animateToLocation(CLLocationCoordinate2DMake(43.5872, -110.8253));
         mapView.animateToZoom(8);
         
         self.locationManager.delegate = self;
@@ -54,7 +54,7 @@ class SnsViewController: UIViewController, CLLocationManagerDelegate, GMSMapView
     override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         if !didFindMyLocation {
             let myLocation: CLLocation = change![NSKeyValueChangeNewKey] as! CLLocation
-            mapView.camera = GMSCameraPosition.cameraWithTarget(myLocation.coordinate, zoom: 10.0)
+            mapView.camera = GMSCameraPosition.cameraWithTarget(myLocation.coordinate, zoom: 14.0)
             mapView.settings.myLocationButton = true
             
             didFindMyLocation = true
