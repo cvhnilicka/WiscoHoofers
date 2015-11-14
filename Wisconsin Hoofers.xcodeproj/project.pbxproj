@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30454DB51BF69FB500338742 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30454DB41BF69FB500338742 /* FBSDKCoreKit.framework */; };
+		30454DB81BF6AC4400338742 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30454DB71BF6AC4400338742 /* Bolts.framework */; };
+		30454DBA1BF6AC5300338742 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30454DB91BF6AC5300338742 /* FBSDKLoginKit.framework */; };
 		65B72D2E6D6D6FEBA94371DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D933C0722DF1E5851539121 /* libPods.a */; };
 		870ED8621BEFFF0800E609D8 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870ED8611BEFFF0800E609D8 /* GoogleMaps.framework */; };
 		8737CE311BEAA59B004D07C8 /* HoofersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8737CE301BEAA59B004D07C8 /* HoofersButton.swift */; };
@@ -61,6 +64,10 @@
 
 /* Begin PBXFileReference section */
 		0D933C0722DF1E5851539121 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30454DB41BF69FB500338742 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-20151111/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		30454DB61BF6A30400338742 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		30454DB71BF6AC4400338742 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-20151111/Bolts.framework"; sourceTree = "<group>"; };
+		30454DB91BF6AC5300338742 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		86A89BE983A4825DDD8D5A81 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		870ED8611BEFFF0800E609D8 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		8737CE301BEAA59B004D07C8 /* HoofersButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoofersButton.swift; sourceTree = "<group>"; };
@@ -109,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30454DBA1BF6AC5300338742 /* FBSDKLoginKit.framework in Frameworks */,
 				875D47211BEFF4360044A1F2 /* SystemConfiguration.framework in Frameworks */,
 				875D471F1BEFF42B0044A1F2 /* QuartzCore.framework in Frameworks */,
 				875D471D1BEFF4220044A1F2 /* OpenGLES.framework in Frameworks */,
@@ -119,10 +127,12 @@
 				875D47131BEFF3D50044A1F2 /* GLKit.framework in Frameworks */,
 				875D47111BEFF3CD0044A1F2 /* CoreText.framework in Frameworks */,
 				875D470F1BEFF3C40044A1F2 /* CoreLocation.framework in Frameworks */,
+				30454DB51BF69FB500338742 /* FBSDKCoreKit.framework in Frameworks */,
 				875D470D1BEFF3BA0044A1F2 /* CoreData.framework in Frameworks */,
 				875D470B1BEFF3B20044A1F2 /* AVFoundation.framework in Frameworks */,
 				870ED8621BEFFF0800E609D8 /* GoogleMaps.framework in Frameworks */,
 				65B72D2E6D6D6FEBA94371DF /* libPods.a in Frameworks */,
+				30454DB81BF6AC4400338742 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +214,7 @@
 				87CC0A971BEA71CA00649AF7 /* LaunchScreen.storyboard */,
 				87CC0A9A1BEA71CA00649AF7 /* Info.plist */,
 				87B721471BEC5B5F006AA2C5 /* GoogleService-Info.plist */,
+				30454DB61BF6A30400338742 /* Bridging-Header.h */,
 			);
 			path = "Wisconsin Hoofers";
 			sourceTree = "<group>";
@@ -229,6 +240,9 @@
 		F6AEFCB6C048CE484D56C19D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30454DB91BF6AC5300338742 /* FBSDKLoginKit.framework */,
+				30454DB71BF6AC4400338742 /* Bolts.framework */,
+				30454DB41BF69FB500338742 /* FBSDKCoreKit.framework */,
 				870ED8611BEFFF0800E609D8 /* GoogleMaps.framework */,
 				875D47201BEFF4360044A1F2 /* SystemConfiguration.framework */,
 				875D471E1BEFF42B0044A1F2 /* QuartzCore.framework */,
@@ -575,12 +589,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151111",
 				);
 				INFOPLIST_FILE = "Wisconsin Hoofers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-Hoofers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Wisconsin Hoofers/Wisconsin Hoofers-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wisconsin Hoofers/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -595,6 +610,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151111",
 				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTM_USE_SESSION_FETCHER=1";
 				INFOPLIST_FILE = "Wisconsin Hoofers/Info.plist";
@@ -605,7 +621,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CormickHnilicka.Wisconsin-Hoofers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Wisconsin Hoofers/Wisconsin Hoofers-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wisconsin Hoofers/Bridging-Header.h";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "gtm-session-fetcher/Source/ google-api-objectivec-client/Source/**";
 			};
 			name = Release;
