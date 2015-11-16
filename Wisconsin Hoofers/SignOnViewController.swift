@@ -91,8 +91,8 @@ class SignOnViewController: UIViewController, FBSDKLoginButtonDelegate{
                 print("fetched user: \(result)")
                 let userName : NSString = result.valueForKey("name") as! NSString
                 print("User Name is: \(userName)")
-                let userEmail : NSString = result.valueForKey("email") as! NSString
-                print("User Email is: \(userEmail)")
+//                let userEmail : NSString = result.valueForKey("email") as! NSString
+//                print("User Email is: \(userEmail)")
             }
         })
     }
