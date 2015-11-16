@@ -99,19 +99,8 @@
                     <view key="view" contentMode="scaleToFill" id="Ceq-NN-mKw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOm-Um-fDZ" customClass="FBSDKLoginButton">
-                                <rect key="frame" x="277" y="428" width="47" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Sign in"/>
-                            </button>
-                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="iOm-Um-fDZ" firstAttribute="centerY" secondItem="Ceq-NN-mKw" secondAttribute="centerY" constant="143" id="YiC-sc-nh7"/>
-                            <constraint firstItem="iOm-Um-fDZ" firstAttribute="centerX" secondItem="Ceq-NN-mKw" secondAttribute="centerX" id="f3F-4O-XH7"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWK-xp-IrS" userLabel="First Responder" sceneMemberID="firstResponder"/>
